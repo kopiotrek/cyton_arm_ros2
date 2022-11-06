@@ -129,10 +129,10 @@ def generate_launch_description():
 
     # ***** RETURN LAUNCH DESCRIPTION ***** #
     return LaunchDescription([
+        joint_state_broadcaster,
+        joint_trajectory_controller,
+        velocity_controller,
         gazebo, 
         node_robot_state_publisher,
         spawn_entity,
-        joint_state_broadcaster,
-        joint_trajectory_controller,
-        velocity_controller
     ])

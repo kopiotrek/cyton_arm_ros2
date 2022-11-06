@@ -17,6 +17,10 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(ros2_control REQUIRED)
+find_package(ros2_controllers REQUIRED)
+find_package(dynamixel_hardware REQUIRED)
+find_package(realsense2_description REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
